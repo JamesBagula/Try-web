@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    width: 1000px;
+    min-height: 700px;
+    border: 2px solid;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.row {
+    width: 100%;
+}
+
+.add-product, .added-product {
+    background-color: gray;
+    border: 1px solid;
+    padding: 20px;
+    margin: 19px;
+    border-radius: 10px;
+}
+
+.add-product {
+    max-height: 250px;
+}
+
+.product-table {
+    min-height: 400px;
+}
+
+.table-footer {
+    margin-left: 3px;
+    border-top: 1px solid;
+    padding-top: 10px;
+}
+
+
+/* @media (max-width: 400px){
+    html,body{
+        overflow-x: hidden;
+    }
+.main{
+    align-items: center;
+    padding-left: 90px;
+    height: 100%;
+    flex-direction: column;
+    
+}
+.add-product{
+    width: 550px !important;
+    margin-left: 220px;
+}
+.boxi{
+    margin-left: 190px;
+}
+.table{
+    width: 280px !important;
+}
+
+.modal{
+    width: 300px !important;
+}
+h1{
+    font-size: 20px;
+    text-align: center;
+}
+table tr th{
+    font-size: 10px;
+}
+} */
+
+@media (max-width: 380px){
+    html,body{
+        overflow-x: hidden;
+    }
+.main{
+    align-items: center;
+    padding-left: 90px;
+    flex-direction: column;
+    
+}
+.add-product{
+    width: 1200px !important;
+    margin-left: 260px;
+}
+.boxi{
+    margin-left: 210px;
+}
+.table{
+    width: 350px !important;
+}
+
+.modal{
+    width: 100% !important;
+}
+h1{
+    font-size: 20px;
+    text-align: center;
+}
+table tr th{
+    font-size: 10px;
+}
+}
+
